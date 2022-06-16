@@ -1,0 +1,1342 @@
+{
+  "short_name": "Craft Config",
+  "name": "crafting system config",
+  "update_authoritys": [
+    {
+      "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2"
+    },
+    {
+      "GKbAE1gW2mokQH9Byqj1Yx25rkRCFiGrLdLFDfSdfUtJ"
+    },
+    {
+      "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    }
+  ], //check user for NFT token from these update authorities if user has they can access the crafting system
+  "candy_machines": [
+    {
+      "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2"
+    },
+    {
+      "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    }
+  ], //check also if user has these NFT with the update authority above and one of these candy machine addresses
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  //below are the crafting materials they have a tokenaddress which is the candy-machinee address, they have an update authority just incase it is differnet from the access token requirements above and they have a burn return wallet where the tokens will be sent to to allow for economy with nft
+  "crafting-Item": [
+    {
+      "number": 1,
+      "name": "Basic Sword Cast",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 2,
+      "name": "Basic Shield Cast",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 3,
+      "name": "Basic Bludeon Cast",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 4,
+      "name": "Basic Staff Cast",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 5,
+      "name": "Basic Long Range Cast",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 6,
+      "name": "Roman Catalyst",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 7,
+      "name": "Viking Catalyst",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 8,
+      "name": "Mayan Catalyst",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 9,
+      "name": "Wood",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 10,
+      "name": "Iron",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 11,
+      "name": "Stone",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 12,
+      "name": "Bronze",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 13,
+      "name": "Silver",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 14,
+      "name": "Gold",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 15,
+      "name": "Diamond",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 16,
+      "name": "Spirit Gem",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 17,
+      "name": "Wind Gem",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 18,
+      "name": "Fire Gem",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 19,
+      "name": "Light Gem",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 20,
+      "name": "Earth Gem",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 21,
+      "name": "Galactic Gem",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 22,
+      "name": "Ice Gem",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 23,
+      "name": "Roman Gladius Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 24,
+      "name": "Roman Gladius Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 25,
+      "name": "Roman Gladius Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 26,
+      "name": "Mayan Tecpatl Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 27,
+      "name": "Mayan Tecpatl Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 28,
+      "name": "Mayan Tecpatl Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 29,
+      "name": "Viking Sverd Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 30,
+      "name": "Viking Sverd Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 31,
+      "name": "Viking Sverd Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 32,
+      "name": "Mayan Chimalli Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 33,
+      "name": "Mayan Chimalli Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 34,
+      "name": "Mayan Chimalli Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 35,
+      "name": "Roman Scrutum Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 36,
+      "name": "Roman Scrutum Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 37,
+      "name": "Roman Scrutum Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 38,
+      "name": "Viking Skelduz Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 39,
+      "name": "Viking Skelduz Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 40,
+      "name": "Viking Skelduz Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 41,
+      "name": "Mayan Tepoztli Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 42,
+      "name": "Mayan Tepoztli Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 43,
+      "name": "Mayan Tepoztli Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 44,
+      "name": "Roman Flail Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 45,
+      "name": "Roman Flail Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 46,
+      "name": "Roman Flail Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 47,
+      "name": "Viking Skeggox Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 48,
+      "name": "Viking Skeggox Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 49,
+      "name": "Viking Skeggox Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 50,
+      "name": "Roman Pilum Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 51,
+      "name": "Roman Pilum Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 52,
+      "name": "Roman Pilum Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 53,
+      "name": "Mayan Atlatl Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 54,
+      "name": "Mayan Atlatl Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 55,
+      "name": "Mayan Atlatl Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 56,
+      "name": "Viking Atgeir Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 57,
+      "name": "Viking Atgeir Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 58,
+      "name": "Viking Atgeir Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 59,
+      "name": "Mayan Blow Dart Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 60,
+      "name": "Mayan Blow Dart Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 61,
+      "name": "Mayan Blow Dart Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 62,
+      "name": "Viking Bogi Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 63,
+      "name": "Viking Bogi Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 64,
+      "name": "Viking Bogi Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 65,
+      "name": "Roman Crossbow Lv 1",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 66,
+      "name": "Roman Crossbow Lv 2",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    },
+    {
+      "number": 67,
+      "name": "Roman Crossbow Lv 3",
+      "tokenAddress": "L52hege1q4qTLrFBfBpphEoVAWwQbapdEPVnJjc5gbh",
+      "token-update-auth": "HE53BkXg7GNnLpTpuqKC5paMXkpHpZD2PrbHT3SP3aj2",
+      "Burn-return-wallet": "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
+    }
+  ],
+  "Crafting-Recipie": [
+    {
+      "number": 1,
+      "item-One": "Basic Sword Cast",
+      "item-two": "Mayan Catalyst",
+      "item-three": "Stone",
+      "item-four": "Wood",
+      "item-five": "Wood",
+      "item-six": "Wood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Tecpatl Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 2,
+      "item-One": "Mayan Tecpatl Lv 1",
+      "item-two": "Mayan Tecpatl Lv 1",
+      "item-three": "Stone",
+      "item-four": "Stone",
+      "item-five": "Silver",
+      "item-six": "Silver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Tecpatl Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 3,
+      "item-One": "Mayan Tecpatl Lv 2",
+      "item-two": "Mayan Tecpatl Lv 2",
+      "item-three": "Gold",
+      "item-four": "Gold",
+      "item-five": "Iron",
+      "item-six": "Bronze",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Tecpatl Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 4,
+      "item-One": "Mayan Tecpatl Lv 3",
+      "item-two": "Mayan Tecpatl Lv 3",
+      "item-three": "Gold",
+      "item-four": "Silver",
+      "item-five": "Diamond",
+      "item-six": "Spirit Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Ceremonial Flint Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 5,
+      "item-One": "Basic Sword Cast",
+      "item-two": "Roman Catalyst",
+      "item-three": "Bronze",
+      "item-four": "Bronze",
+      "item-five": "Wood",
+      "item-six": "Wood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Gladius Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 6,
+      "item-One": "Roman Gladius Lv 1",
+      "item-two": "Roman Gladius Lv 1",
+      "item-three": "Silver",
+      "item-four": "Iron",
+      "item-five": "Iron",
+      "item-six": "Bronze",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Gladius Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 7,
+      "item-One": "Roman Gladius Lv 2",
+      "item-two": "Roman Gladius Lv 2",
+      "item-three": "Gold",
+      "item-four": "Gold",
+      "item-five": "Silver",
+      "item-six": "Silver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Gladius Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 8,
+      "item-One": "Roman Gladius Lv 3",
+      "item-two": "Roman Gladius Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Gold",
+      "item-five": "Silver",
+      "item-six": "Fire Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Sword of Mars Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 9,
+      "item-One": "Mayan Tecpatl Lv 3",
+      "item-two": "Roman Gladius Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Diamond",
+      "item-five": "Silver",
+      "item-six": "Wind Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Samurai Grasscutter Katana Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 10,
+      "item-One": "Roman Gladius Lv 3",
+      "item-two": "Viking Sverd Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Diamond",
+      "item-five": "Iron",
+      "item-six": "Light Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Knights Excalibur Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 11,
+      "item-One": "Viking Sverd Lv 3",
+      "item-two": "Viking Sverd Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Gold",
+      "item-five": "Iron",
+      "item-six": "Fire Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Stream of Anguish Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 12,
+      "item-One": "Basic Sword Cast",
+      "item-two": "Viking Catalyst",
+      "item-three": "Iron",
+      "item-four": "Iron",
+      "item-five": "Wood",
+      "item-six": "Wood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Sverd Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 13,
+      "item-One": "Viking Sverd Lv 1",
+      "item-two": "Viking Sverd Lv 1",
+      "item-three": "Iron",
+      "item-four": "Stone",
+      "item-five": "Stone",
+      "item-six": "Silver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Sverd Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 14,
+      "item-One": "Viking Sverd Lv 2",
+      "item-two": "Viking Sverd Lv 2",
+      "item-three": "Gold",
+      "item-four": "Silver",
+      "item-five": "Silver",
+      "item-six": "Bronze",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Sverd Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 15,
+      "item-One": "Basic Shield Cast",
+      "item-two": "Mayan Catalyst",
+      "item-three": "Iron",
+      "item-four": "Wood",
+      "item-five": "Wood",
+      "item-six": "Wood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Chimalli Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 16,
+      "item-One": "Mayan Chimalli Lv 1",
+      "item-two": "Mayan Chimalli Lv 1",
+      "item-three": "Iron",
+      "item-four": "Bronze",
+      "item-five": "Silver",
+      "item-six": "Silver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Chimalli Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 17,
+      "item-One": "Mayan Chimalli Lv 2",
+      "item-two": "Mayan Chimalli Lv 2",
+      "item-three": "Gold",
+      "item-four": "Gold",
+      "item-five": "Silver",
+      "item-six": "Bronze",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Chimalli Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 18,
+      "item-One": "Mayan Chimalli Lv 3",
+      "item-two": "Mayan Chimalli Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Gold",
+      "item-five": "Iron",
+      "item-six": "Fire Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Sun Shield Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 19,
+      "item-One": "Basic Shield Cast",
+      "item-two": "Roman Catalyst",
+      "item-three": "Bronze",
+      "item-four": "Bronze",
+      "item-five": "Iron",
+      "item-six": "Iron",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Scrutum Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 20,
+      "item-One": "Roman Scrutum Lv 1",
+      "item-two": "Roman Scrutum Lv 1",
+      "item-three": "Iron",
+      "item-four": "Iron",
+      "item-five": "Silver",
+      "item-six": "Stone",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Scrutum Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 21,
+      "item-One": "Roman Scrutum Lv 2",
+      "item-two": "Roman Scrutum Lv 2",
+      "item-three": "Silver",
+      "item-four": "Gold",
+      "item-five": "Silver",
+      "item-six": "Silver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Scrutum Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 22,
+      "item-One": "Roman Scrutum Lv 3",
+      "item-two": "Mayan Chimalli Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Diamond",
+      "item-five": "Silver",
+      "item-six": "Earth Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Hindu Shrivatsa Shield Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 23,
+      "item-One": "Roman Scrutum Lv 3",
+      "item-two": "Roman Scrutum Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Gold",
+      "item-five": "Gold",
+      "item-six": "Galactic Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Ancil Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 24,
+      "item-One": "Basic Shield Cast",
+      "item-two": "Viking Catalyst",
+      "item-three": "Bronze",
+      "item-four": "Bronze",
+      "item-five": "Wood",
+      "item-six": "Wood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Skelduz Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 25,
+      "item-One": "Viking Skelduz Lv 1",
+      "item-two": "Viking Skelduz Lv 1",
+      "item-three": "Iron",
+      "item-four": "Wood",
+      "item-five": "Silver",
+      "item-six": "Bronze",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Skelduz Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 26,
+      "item-One": "Viking Skelduz Lv 2",
+      "item-two": "Viking Skelduz Lv 2",
+      "item-three": "Silver",
+      "item-four": "Gold",
+      "item-five": "Silver",
+      "item-six": "Iron",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Skelduz Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 27,
+      "item-One": "Viking Skelduz Lv 3",
+      "item-two": "Roman Scrutum Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Diamond",
+      "item-five": "Silver",
+      "item-six": "Light Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Greek Shield of Achilles Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 28,
+      "item-One": "Viking Skelduz Lv 3",
+      "item-two": "Viking Skelduz Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Silver",
+      "item-five": "Silver",
+      "item-six": "Ice Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Svalinn Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 29,
+      "item-One": "Basic Bludgeon Cast",
+      "item-two": "Mayan Catalyst",
+      "item-three": "Stone",
+      "item-four": "Wood",
+      "item-five": "Wood",
+      "item-six": "Wood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Tepoztli Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 30,
+      "item-One": "Mayan Tepoztli Lv 1",
+      "item-two": "Mayan Tepoztli Lv 1",
+      "item-three": "Iron",
+      "item-four": "Stone",
+      "item-five": "Stone",
+      "item-six": "Silver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Tepoztli Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 31,
+      "item-One": "Mayan Tepoztli Lv 2",
+      "item-two": "Mayan Tepoztli Lv 2",
+      "item-three": "Gold",
+      "item-four": "Gold",
+      "item-five": "Silver",
+      "item-six": "Gold",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Tepoztli Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 32,
+      "item-One": "Mayan Tepoztli Lv 3",
+      "item-two": "Mayan Tepoztli Lv 3",
+      "item-three": "Stone",
+      "item-four": "Gold",
+      "item-five": "Diamond",
+      "item-six": "Spirit Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Macuahuitl Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 33,
+      "item-One": "Mayan Tepoztli Lv 3",
+      "item-two": "Roman Flail Lv 3",
+      "item-three": "Bronze",
+      "item-four": "Diamond",
+      "item-five": "Diamond",
+      "item-six": "Earth Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Chinese Pangu Axe Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 34,
+      "item-One": "Basic Bludgeon Cast",
+      "item-two": "Roman Catalyst",
+      "item-three": "Bronze",
+      "item-four": "Bronze",
+      "item-five": "Wood",
+      "item-six": "Wood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Flail Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 35,
+      "item-One": "Roman Flail Lv 1",
+      "item-two": "Roman Flail Lv 1",
+      "item-three": "Iron",
+      "item-four": "Iron",
+      "item-five": "Silver",
+      "item-six": "Bronze",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Flail Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 36,
+      "item-One": "Roman Flail Lv 2",
+      "item-two": "Roman Flail Lv 2",
+      "item-three": "Gold",
+      "item-four": "Gold",
+      "item-five": "Silver",
+      "item-six": "Silver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Flail Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 37,
+      "item-One": "Roman Flail Lv 3",
+      "item-two": "Roman Flail Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Gold",
+      "item-five": "Silver",
+      "item-six": "Fire Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Gladiator Plank Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 38,
+      "item-One": "Roman Flail Lv 3",
+      "item-two": "Viking Skeggox Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Diamond",
+      "item-five": "Iron",
+      "item-six": "Wind Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mesopotamian Sharur Mace Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 39,
+      "item-One": "Basic Bludgeon Cast",
+      "item-two": "Viking Catalyst",
+      "item-three": "Iron",
+      "item-four": "Iron",
+      "item-five": "Wood",
+      "item-six": "Wood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Skeggox Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 40,
+      "item-One": "Viking Skeggox Lv 1",
+      "item-two": "Viking Skeggox Lv 1",
+      "item-three": "Iron",
+      "item-four": "Stone",
+      "item-five": "Stone",
+      "item-six": "Silver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Skeggox Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 41,
+      "item-One": "Viking Skeggox Lv 2",
+      "item-two": "Viking Skeggox Lv 2",
+      "item-three": "Bronze",
+      "item-four": "Silver",
+      "item-five": "Silver",
+      "item-six": "Silver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Skeggox Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 42,
+      "item-One": "Viking Skeggox Lv 3",
+      "item-two": "Viking Skeggox Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Iron",
+      "item-five": "Gold",
+      "item-six": "Light Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Mjolnir Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 43,
+      "item-One": "Basic Staff Lv 1",
+      "item-two": "Roman Catalyst",
+      "item-three": "Iron",
+      "item-four": "Wood",
+      "item-five": "Wood",
+      "item-six": "Wood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Pilum Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 44,
+      "item-One": "Roman Pilum Lv 1",
+      "item-two": "Roman Pilum Lv 1",
+      "item-three": "Silver",
+      "item-four": "Iron",
+      "item-five": "Bronze",
+      "item-six": "Bronze",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Pilum Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 45,
+      "item-One": "Roman Pilum Lv 2",
+      "item-two": "Roman Pilum Lv 2",
+      "item-three": "Gold",
+      "item-four": "Silver",
+      "item-five": "Silver",
+      "item-six": "So;ver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Pilum Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 46,
+      "item-One": "Roman Pilum Lv 3",
+      "item-two": "Roman Pilum Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Gold",
+      "item-five": "Gold",
+      "item-six": "Light Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Ascalon Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 47,
+      "item-One": "Mayan Atlatl Lv 3",
+      "item-two": "Roman Pilum Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Diamond",
+      "item-five": "Silver",
+      "item-six": "Spirit Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Egyptian Dominion Scepter Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 48,
+      "item-One": "Basic Staff Cast",
+      "item-two": "Mayan Catalyst",
+      "item-three": "Bronze",
+      "item-four": "Wood",
+      "item-five": "Wood",
+      "item-six": "Iron",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Atlatl Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 49,
+      "item-One": "Mayan Atlatl Lv 1",
+      "item-two": "Mayan Atlatl Lv 1",
+      "item-three": "Iron",
+      "item-four": "Iron",
+      "item-five": "Stone",
+      "item-six": "Silver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Atlatl Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 50,
+      "item-One": "Mayan Atlatl Lv 2",
+      "item-two": "Mayan Atlatl Lv 2",
+      "item-three": "Gold",
+      "item-four": "Gold",
+      "item-five": "Silver",
+      "item-six": "Wood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Atlatl Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 51,
+      "item-One": "Mayan Atlatl Lv 3",
+      "item-two": "Mayan Atlatl Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Gold",
+      "item-five": "Silver",
+      "item-six": "Earth Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Quetzalcoatl Staff Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 52,
+      "item-One": "Mayan Atlatl Lv 3",
+      "item-two": "Viking Atgeir Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Diamond",
+      "item-five": "Silver",
+      "item-six": "Wind Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Samurai Amenonuhoko Spear Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 53,
+      "item-One": "Basic Staff Cast",
+      "item-two": "Viking Catalyst",
+      "item-three": "Bronze",
+      "item-four": "Bronze",
+      "item-five": "Wood",
+      "item-six": "Woood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Atgeir Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 54,
+      "item-One": "Viking Atgeir Lv 1",
+      "item-two": "Viking Atgeir Lv 1",
+      "item-three": "Iron",
+      "item-four": "Bronze",
+      "item-five": "Bronze",
+      "item-six": "Bronze",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Atgeir Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 55,
+      "item-One": "Viking Atgeir Lv 2",
+      "item-two": "Viking Atgeir Lv 2",
+      "item-three": "Silver",
+      "item-four": "Silver",
+      "item-five": "Bronze",
+      "item-six": "Bronze",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Atgeir Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 56,
+      "item-One": "Viking Atgeir Lv 3",
+      "item-two": "Viking Atgeir Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Gold",
+      "item-five": "Gold",
+      "item-six": "Ice Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Gungnir Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 57,
+      "item-One": "Basic Long Range Cast",
+      "item-two": "Mayan Catalyst",
+      "item-three": "Stone",
+      "item-four": "Stone",
+      "item-five": "Stone",
+      "item-six": "Wood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Blow Dart Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 58,
+      "item-One": "Mayan Blow Dart Lv 1",
+      "item-two": "Mayan Blow Dart Lv 1",
+      "item-three": "Stone",
+      "item-four": "Stone",
+      "item-five": "Silver",
+      "item-six": "Iron",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Blow Dart Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 59,
+      "item-One": "Mayan Blow Dart Lv 2",
+      "item-two": "Mayan Blow Dart Lv 2",
+      "item-three": "Gold",
+      "item-four": "Gold",
+      "item-five": "Gold",
+      "item-six": "Stone",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Blow Dart Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 60,
+      "item-One": "Mayan Blow Dart Lv 3",
+      "item-two": "Mayan Blow Dart Lv 3",
+      "item-three": "Stone",
+      "item-four": "Stone",
+      "item-five": "Diamond",
+      "item-six": "Wind Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Mayan Hornet Grenade Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 61,
+      "item-One": "Mayan Blow Dart Lv 3",
+      "item-two": "Viking Bogi Lv 3",
+      "item-three": "Wood",
+      "item-four": "Diamond",
+      "item-five": "Diamond",
+      "item-six": "Spirit Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Aborigini Dreaming Boomerang Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 62,
+      "item-One": "Basic Long Range Cast",
+      "item-two": "Viking Catalyst",
+      "item-three": "Bronze",
+      "item-four": "Bronze",
+      "item-five": "Wood",
+      "item-six": "Wood",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Bogi Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 63,
+      "item-One": "Viking Bogi Lv 1",
+      "item-two": "Viking Bogi Lv 1",
+      "item-three": "Iron",
+      "item-four": "Wood",
+      "item-five": "Bronze",
+      "item-six": "Silver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Bogi Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 64,
+      "item-One": "Viking Bogi Lv 2",
+      "item-two": "Viking Bogi Lv 2",
+      "item-three": "Gold",
+      "item-four": "Silver",
+      "item-five": "Bronze",
+      "item-six": "Bronze",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Bogi Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 65,
+      "item-One": "Viking Bogi Lv 3",
+      "item-two": "Viking Bogi Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Silver",
+      "item-five": "Silver",
+      "item-six": "Light Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Viking Gusisnautar Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 66,
+      "item-One": "Roman Crossbow Lv 3",
+      "item-two": "Viking Bogi Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Diamond",
+      "item-five": "Silver",
+      "item-six": "Fire Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Hindu Gandiva Bow Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 67,
+      "item-One": "Basic Long Range Cast",
+      "item-two": "Roman Catalyst",
+      "item-three": "Bronze",
+      "item-four": "Bronze",
+      "item-five": "Iron",
+      "item-six": "Iron",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Crossbow Lv 1", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 68,
+      "item-One": "Roman Crossbow Lv 1",
+      "item-two": "Roman Crossbow Lv 1",
+      "item-three": "Iron",
+      "item-four": "Iron",
+      "item-five": "Silver",
+      "item-six": "Silver",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Crossbow Lv 2", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 69,
+      "item-One": "Roman Crossbow Lv 2",
+      "item-two": "Roman Crossbow Lv 2",
+      "item-three": "Iron",
+      "item-four": "Iron",
+      "item-five": "Gold",
+      "item-six": "Gold",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Crossbow Lv 3", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    },
+    {
+      "number": 70,
+      "item-One": "Roman Crossbow Lv 3",
+      "item-two": "Roman Crossbow Lv 3",
+      "item-three": "Diamond",
+      "item-four": "Gold",
+      "item-five": "Gold",
+      "item-six": "Galactic Gem",
+      "craft-success-tokenAddress": "", //need to add token address of craft item
+      "name": "Roman Cupid's Bow And Arrow Lv 4", // will be displayed as Weapon name
+      "craft-success-token-mint-amount": 1
+    }
+  ]
+}
