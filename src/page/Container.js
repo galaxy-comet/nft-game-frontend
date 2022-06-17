@@ -12,7 +12,6 @@ import Gems from "../assets/img/Gems.png";
 import Materials from "../assets/img/Materials.png";
 import Weaspons from "../assets/img/Weaspons.png";
 import CircularProgress from '@mui/material/CircularProgress';
-import CraftBtn from "../assets/img/Craftbtn.png";
 import Arrow from "../assets/img/arrow.png";
 import Shield from "../assets/img/shield.png";
 import Spear from "../assets/img/spear.png";
@@ -24,7 +23,7 @@ import Tool3 from "../assets/img/tool3.png";
 
 
 function Container() {
-  const [selectpage, setSelectpage] = useState(1);
+  const [selectpage, setSelectpage] = useState(0);
   const [tabimage1, setTabimg1] = useState("./img/clickrightbtn1.png");
   const [tabimage2, setTabimg2] = useState("./img/rightbtn2.png");
   const [progress, setProgress] = useState(true);
@@ -117,7 +116,7 @@ function Container() {
               selectpage === 0 ?
               <Grid container spacing={2} className="right-content2">
                 <Grid container spacing={2} columns={6} className="item-list">
-                  <h2>Required&nbsp;Materials</h2>
+                  <h3>Required&nbsp;Materials</h3>
                   <Grid item xs={3} sm={1} md={2} lg={1}>
                     <div className="item-box"></div>
                   </Grid>

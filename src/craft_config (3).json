@@ -11,7 +11,8 @@
     {
       "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
     }
-  ], //check user for NFT token from these update authorities if user has they can access the crafting system
+  ],
+  // check user for NFT token from these update authorities if user has they can access the crafting system
   "candy_machines": [
     {
       "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
@@ -22,7 +23,8 @@
     {
       "2fFWPwM6mebG67MDrcawTCfef5qgKp7Uug26eHkfWGPX"
     }
-  ], //check also if user has these NFT with the update authority above and one of these candy machine addresses
+  ],
+  //check also if user has these NFT with the update authority above and one of these candy machine addresses
   "theme_color": "#000000",
   "background_color": "#ffffff",
   //below are the crafting materials they have a tokenaddress which is the candy-machinee address, they have an update authority just incase it is differnet from the access token requirements above and they have a burn return wallet where the tokens will be sent to to allow for economy with nft
@@ -506,8 +508,8 @@
       "item-four": "Wood",
       "item-five": "Wood",
       "item-six": "Wood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Tecpatl Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Tecpatl Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -518,8 +520,8 @@
       "item-four": "Stone",
       "item-five": "Silver",
       "item-six": "Silver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Tecpatl Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Tecpatl Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -530,8 +532,8 @@
       "item-four": "Gold",
       "item-five": "Iron",
       "item-six": "Bronze",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Tecpatl Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Tecpatl Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -542,8 +544,8 @@
       "item-four": "Silver",
       "item-five": "Diamond",
       "item-six": "Spirit Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Ceremonial Flint Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Ceremonial Flint Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -554,8 +556,8 @@
       "item-four": "Bronze",
       "item-five": "Wood",
       "item-six": "Wood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Gladius Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Gladius Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -566,8 +568,8 @@
       "item-four": "Iron",
       "item-five": "Iron",
       "item-six": "Bronze",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Gladius Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Gladius Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -578,8 +580,8 @@
       "item-four": "Gold",
       "item-five": "Silver",
       "item-six": "Silver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Gladius Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Gladius Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -590,8 +592,8 @@
       "item-four": "Gold",
       "item-five": "Silver",
       "item-six": "Fire Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Sword of Mars Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Sword of Mars Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -602,8 +604,8 @@
       "item-four": "Diamond",
       "item-five": "Silver",
       "item-six": "Wind Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Samurai Grasscutter Katana Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Samurai Grasscutter Katana Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -614,8 +616,8 @@
       "item-four": "Diamond",
       "item-five": "Iron",
       "item-six": "Light Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Knights Excalibur Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Knights Excalibur Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -626,8 +628,8 @@
       "item-four": "Gold",
       "item-five": "Iron",
       "item-six": "Fire Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Stream of Anguish Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Stream of Anguish Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -638,8 +640,8 @@
       "item-four": "Iron",
       "item-five": "Wood",
       "item-six": "Wood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Sverd Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Sverd Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -650,8 +652,8 @@
       "item-four": "Stone",
       "item-five": "Stone",
       "item-six": "Silver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Sverd Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Sverd Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -662,8 +664,8 @@
       "item-four": "Silver",
       "item-five": "Silver",
       "item-six": "Bronze",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Sverd Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Sverd Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -674,8 +676,8 @@
       "item-four": "Wood",
       "item-five": "Wood",
       "item-six": "Wood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Chimalli Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Chimalli Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -686,8 +688,8 @@
       "item-four": "Bronze",
       "item-five": "Silver",
       "item-six": "Silver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Chimalli Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Chimalli Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -698,8 +700,8 @@
       "item-four": "Gold",
       "item-five": "Silver",
       "item-six": "Bronze",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Chimalli Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Chimalli Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -710,8 +712,8 @@
       "item-four": "Gold",
       "item-five": "Iron",
       "item-six": "Fire Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Sun Shield Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Sun Shield Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -722,8 +724,8 @@
       "item-four": "Bronze",
       "item-five": "Iron",
       "item-six": "Iron",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Scrutum Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Scrutum Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -734,8 +736,8 @@
       "item-four": "Iron",
       "item-five": "Silver",
       "item-six": "Stone",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Scrutum Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Scrutum Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -746,8 +748,8 @@
       "item-four": "Gold",
       "item-five": "Silver",
       "item-six": "Silver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Scrutum Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Scrutum Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -758,8 +760,8 @@
       "item-four": "Diamond",
       "item-five": "Silver",
       "item-six": "Earth Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Hindu Shrivatsa Shield Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Hindu Shrivatsa Shield Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -770,8 +772,8 @@
       "item-four": "Gold",
       "item-five": "Gold",
       "item-six": "Galactic Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Ancil Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Ancil Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -782,8 +784,8 @@
       "item-four": "Bronze",
       "item-five": "Wood",
       "item-six": "Wood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Skelduz Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Skelduz Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -794,8 +796,8 @@
       "item-four": "Wood",
       "item-five": "Silver",
       "item-six": "Bronze",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Skelduz Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Skelduz Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -806,8 +808,8 @@
       "item-four": "Gold",
       "item-five": "Silver",
       "item-six": "Iron",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Skelduz Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Skelduz Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -818,8 +820,8 @@
       "item-four": "Diamond",
       "item-five": "Silver",
       "item-six": "Light Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Greek Shield of Achilles Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Greek Shield of Achilles Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -830,8 +832,8 @@
       "item-four": "Silver",
       "item-five": "Silver",
       "item-six": "Ice Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Svalinn Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Svalinn Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -842,8 +844,8 @@
       "item-four": "Wood",
       "item-five": "Wood",
       "item-six": "Wood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Tepoztli Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Tepoztli Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -854,8 +856,8 @@
       "item-four": "Stone",
       "item-five": "Stone",
       "item-six": "Silver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Tepoztli Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Tepoztli Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -866,8 +868,8 @@
       "item-four": "Gold",
       "item-five": "Silver",
       "item-six": "Gold",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Tepoztli Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Tepoztli Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -878,8 +880,8 @@
       "item-four": "Gold",
       "item-five": "Diamond",
       "item-six": "Spirit Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Macuahuitl Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Macuahuitl Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -890,8 +892,8 @@
       "item-four": "Diamond",
       "item-five": "Diamond",
       "item-six": "Earth Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Chinese Pangu Axe Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Chinese Pangu Axe Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -902,8 +904,8 @@
       "item-four": "Bronze",
       "item-five": "Wood",
       "item-six": "Wood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Flail Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Flail Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -914,8 +916,8 @@
       "item-four": "Iron",
       "item-five": "Silver",
       "item-six": "Bronze",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Flail Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Flail Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -926,8 +928,8 @@
       "item-four": "Gold",
       "item-five": "Silver",
       "item-six": "Silver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Flail Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Flail Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -938,8 +940,8 @@
       "item-four": "Gold",
       "item-five": "Silver",
       "item-six": "Fire Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Gladiator Plank Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Gladiator Plank Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -950,8 +952,8 @@
       "item-four": "Diamond",
       "item-five": "Iron",
       "item-six": "Wind Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mesopotamian Sharur Mace Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mesopotamian Sharur Mace Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -962,8 +964,8 @@
       "item-four": "Iron",
       "item-five": "Wood",
       "item-six": "Wood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Skeggox Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Skeggox Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -974,8 +976,8 @@
       "item-four": "Stone",
       "item-five": "Stone",
       "item-six": "Silver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Skeggox Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Skeggox Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -986,8 +988,8 @@
       "item-four": "Silver",
       "item-five": "Silver",
       "item-six": "Silver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Skeggox Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Skeggox Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -998,8 +1000,8 @@
       "item-four": "Iron",
       "item-five": "Gold",
       "item-six": "Light Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Mjolnir Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Mjolnir Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1010,8 +1012,8 @@
       "item-four": "Wood",
       "item-five": "Wood",
       "item-six": "Wood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Pilum Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Pilum Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1022,8 +1024,8 @@
       "item-four": "Iron",
       "item-five": "Bronze",
       "item-six": "Bronze",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Pilum Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Pilum Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1034,8 +1036,8 @@
       "item-four": "Silver",
       "item-five": "Silver",
       "item-six": "So;ver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Pilum Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Pilum Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1046,8 +1048,8 @@
       "item-four": "Gold",
       "item-five": "Gold",
       "item-six": "Light Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Ascalon Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Ascalon Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1058,8 +1060,8 @@
       "item-four": "Diamond",
       "item-five": "Silver",
       "item-six": "Spirit Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Egyptian Dominion Scepter Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Egyptian Dominion Scepter Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1070,8 +1072,8 @@
       "item-four": "Wood",
       "item-five": "Wood",
       "item-six": "Iron",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Atlatl Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Atlatl Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1082,8 +1084,8 @@
       "item-four": "Iron",
       "item-five": "Stone",
       "item-six": "Silver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Atlatl Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Atlatl Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1094,8 +1096,8 @@
       "item-four": "Gold",
       "item-five": "Silver",
       "item-six": "Wood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Atlatl Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Atlatl Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1106,8 +1108,8 @@
       "item-four": "Gold",
       "item-five": "Silver",
       "item-six": "Earth Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Quetzalcoatl Staff Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Quetzalcoatl Staff Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1118,8 +1120,8 @@
       "item-four": "Diamond",
       "item-five": "Silver",
       "item-six": "Wind Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Samurai Amenonuhoko Spear Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Samurai Amenonuhoko Spear Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1130,8 +1132,8 @@
       "item-four": "Bronze",
       "item-five": "Wood",
       "item-six": "Woood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Atgeir Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Atgeir Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1142,8 +1144,8 @@
       "item-four": "Bronze",
       "item-five": "Bronze",
       "item-six": "Bronze",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Atgeir Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Atgeir Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1154,8 +1156,8 @@
       "item-four": "Silver",
       "item-five": "Bronze",
       "item-six": "Bronze",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Atgeir Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Atgeir Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1166,8 +1168,8 @@
       "item-four": "Gold",
       "item-five": "Gold",
       "item-six": "Ice Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Gungnir Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Gungnir Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1178,8 +1180,8 @@
       "item-four": "Stone",
       "item-five": "Stone",
       "item-six": "Wood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Blow Dart Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Blow Dart Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1190,8 +1192,8 @@
       "item-four": "Stone",
       "item-five": "Silver",
       "item-six": "Iron",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Blow Dart Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Blow Dart Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1202,8 +1204,8 @@
       "item-four": "Gold",
       "item-five": "Gold",
       "item-six": "Stone",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Blow Dart Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Blow Dart Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1214,8 +1216,8 @@
       "item-four": "Stone",
       "item-five": "Diamond",
       "item-six": "Wind Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Mayan Hornet Grenade Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Mayan Hornet Grenade Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1226,8 +1228,8 @@
       "item-four": "Diamond",
       "item-five": "Diamond",
       "item-six": "Spirit Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Aborigini Dreaming Boomerang Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Aborigini Dreaming Boomerang Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1238,8 +1240,8 @@
       "item-four": "Bronze",
       "item-five": "Wood",
       "item-six": "Wood",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Bogi Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Bogi Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1250,8 +1252,8 @@
       "item-four": "Wood",
       "item-five": "Bronze",
       "item-six": "Silver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Bogi Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Bogi Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1262,8 +1264,8 @@
       "item-four": "Silver",
       "item-five": "Bronze",
       "item-six": "Bronze",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Bogi Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Bogi Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1274,8 +1276,8 @@
       "item-four": "Silver",
       "item-five": "Silver",
       "item-six": "Light Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Viking Gusisnautar Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Viking Gusisnautar Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1286,8 +1288,8 @@
       "item-four": "Diamond",
       "item-five": "Silver",
       "item-six": "Fire Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Hindu Gandiva Bow Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Hindu Gandiva Bow Lv 4",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1298,8 +1300,8 @@
       "item-four": "Bronze",
       "item-five": "Iron",
       "item-six": "Iron",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Crossbow Lv 1", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Crossbow Lv 1",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1310,8 +1312,8 @@
       "item-four": "Iron",
       "item-five": "Silver",
       "item-six": "Silver",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Crossbow Lv 2", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Crossbow Lv 2",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1322,8 +1324,8 @@
       "item-four": "Iron",
       "item-five": "Gold",
       "item-six": "Gold",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Crossbow Lv 3", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Crossbow Lv 3",
       "craft-success-token-mint-amount": 1
     },
     {
@@ -1334,8 +1336,8 @@
       "item-four": "Gold",
       "item-five": "Gold",
       "item-six": "Galactic Gem",
-      "craft-success-tokenAddress": "", //need to add token address of craft item
-      "name": "Roman Cupid's Bow And Arrow Lv 4", // will be displayed as Weapon name
+      "craft-success-tokenAddress": "",
+      "name": "Roman Cupid's Bow And Arrow Lv 4",
       "craft-success-token-mint-amount": 1
     }
   ]
